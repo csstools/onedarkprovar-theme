@@ -1,0 +1,33 @@
+{
+  "name": "onedarkprovar",
+  "version": "1.0.0",
+  "displayName": "One Dark Pro Var",
+  "description": "One Dark Pro with Colorful Variables",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "publisher": "csstools",
+  "license": "CC0-1.0",
+  "repository": "csstools/onedarkprovar-theme",
+  "homepage": "https://github.com/csstools/onedarkprovar-theme#readme",
+  "bugs": "https://github.com/csstools/onedarkprovar-theme/issues",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro Var",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDarkProVar-theme.json"
+      },
+      {
+        "label": "One Dark Pro Var Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDarkProVarNight-theme.json"
+      }
+    ]
+  }
+}
