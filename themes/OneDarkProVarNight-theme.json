@@ -1921,8 +1921,9 @@
       ]
     },
     {
-      "name": "Override Punctuation",
+      "name": "Override Punctuations",
       "scope": [
+        "punctuation.section.block",
         "punctuation.section.property-list.begin.bracket.curly",
         "punctuation.section.property-list.end.bracket.curly",
         "punctuation.section.media.begin.bracket.curly",
@@ -1941,10 +1942,29 @@
       }
     },
     {
-      "name": "Override Variable Punctuations",
+      "name": "Override Variable Punctuation",
       "scope": "punctuation.definition.variable",
       "settings": {
         "foreground": "#886e3f"
+      }
+    },
+    {
+      "name": "Override Function Punctuations",
+      "scope": [
+        "punctuation.definition.entity.begin.pseudo",
+        "punctuation.definition.function"
+      ],
+      "settings": {
+        "foreground": "#346e76"
+      }
+    },
+    {
+      "name": "Override Keyword Punctuations",
+      "scope": [
+        "punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#9e30bf"
       }
     },
     {

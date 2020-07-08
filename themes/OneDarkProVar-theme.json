@@ -909,13 +909,6 @@
       }
     },
     {
-      "name": "Attribute Punctuations",
-      "scope": "punctuation.definition.entity",
-      "settings": {
-        "foreground": "#a16730"
-      }
-    },
-    {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
@@ -1952,6 +1945,25 @@
       "scope": "punctuation.definition.variable",
       "settings": {
         "foreground": "#886e3f"
+      }
+    },
+    {
+      "name": "Override Function Punctuations",
+      "scope": [
+        "punctuation.definition.entity.begin.pseudo",
+        "punctuation.definition.function"
+      ],
+      "settings": {
+        "foreground": "#346e76"
+      }
+    },
+    {
+      "name": "Override Keyword Punctuations",
+      "scope": [
+        "punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#9e30bf"
       }
     },
     {
